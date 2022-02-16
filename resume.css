@@ -11,15 +11,28 @@ body {
 
 #personal-data {
     display: flex;
-    flex-direction: row;
+    flex-wrap: wrap;
 }
 
 #personal-data div {
-    margin-left: 0.5em;
-    margin-right: 0.5em;
+    margin: 0.5em;
 }
 
-#cv-data {
+.resume-data {
     display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    width: 100%;
+}
+
+.section {
+    margin-left: 2em;
+    margin-right: 2em;
     flex-direction: column;
+    flex-basis: 100%;
+    flex: 1;
+}
+
+.checked {
+    color: orange;
 }
