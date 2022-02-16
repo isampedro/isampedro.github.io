@@ -1,3 +1,11 @@
+#name-title {
+    width: 100%;
+    text-align: center;
+    font-size: 3em;
+    border-bottom: 0.05em solid lightblue;
+    margin-bottom: 0.3em;
+}
+
 body {
     width: 210mm;
     min-height: 297mm;
@@ -12,6 +20,7 @@ body {
 #personal-data {
     display: flex;
     flex-wrap: wrap;
+    margin-bottom: 2em;
 }
 
 #personal-data div {
@@ -31,6 +40,21 @@ body {
     flex-direction: column;
     flex-basis: 100%;
     flex: 1;
+}
+
+.section-title {
+    width: 100%;
+    border-bottom: 0.15em solid lightblue;
+}
+
+.skill,
+.language {
+    display: flex;
+    flex-direction: row;
+}
+
+.star-rating {
+    margin-left: 1em;
 }
 
 .checked {
